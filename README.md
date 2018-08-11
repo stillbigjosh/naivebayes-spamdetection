@@ -1,5 +1,5 @@
 # NaiveBayesClassifier
-
+Author: Skywalker(@alojoecee)
 Here, we will demonstrate how Naive Bayes solves an age old internet problem - "Spams". To solve this, we will follow 
 a few easy steps. Before you read this, I'm assuming you have a basic understanding of Naive Bayes Classifiers, if 
 you don't - NB Classifiers is a classification algorithm used to certain classification problems. 
@@ -14,7 +14,7 @@ scaled equally, thus the name.
     - Python3.x Intepreter
     - In depth knowledge of Multinomial Naive Bayes Classification.
 
-    How we go about this?v
+    How we go about this?
     We have samples of popular spam email subjects from wordsthatclick.com
 	- save big on all ehicles
 	- melt fat away
