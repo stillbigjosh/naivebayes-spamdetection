@@ -1,3 +1,5 @@
+'''author: Skywalker(@alojoecee)'''
+
 spamdata = ['save', 'big', 'on', 'all', 'vehicles', 'melt', 'fat', 'away',
            'you', 'were', 'recommended', 'into', 'the', 'global', 'professional',
            'network', 'how', 'to', 'grow', '3+', 'inches', 'taller', 'in', 'just','a',
