@@ -41,6 +41,6 @@ scaled equally, thus the name.
  is the category this new mail belongs to.
  First, we compute the posterior probability of the class spam given the predictor(word).
  	The posterior probability of class ‘spam’ given the predictor(new mail subject line) is found to be 0.8839285714285714(nn). Next, we compute the posterior probability of class ‘non spam’ given the same predictor.
-	The posterior probability hereby is given as 1.4375(mm). Finally since it’s a universal truth that 1.4375 > 0.8839285714285714, the new mail in our inbox with the subject line, “new professional courses recommended for you” has been classified as a “non spam” email by the algorithm. We are safe. :).
+	The posterior probability hereby is given as 1.4375(mm). Finally since it’s a universal truth that 1.4375 > 0.8839285714285714, the new mail in our inbox with the subject line, “new professional courses is recommended for you” has been classified as a “non spam” email by the algorithm. We are safe. :).
 	
 The entire source code can be found at naive_bayes_spam_detector.py commit. Happy Hacking.
