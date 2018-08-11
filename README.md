@@ -33,3 +33,13 @@ scaled equally, thus the name.
     Technicality?
 	1. Convert the data(both the spam and non spam) into a frequency table, this will be done in code and here, the Artificial Intelligence favorite pet - Python;
 	 The code to this is titled frequencytable.py in this repository.
+	 2. Create a Likelihood table 
+	 3. Use Naive Bayes equation to calculate the posterior probability for each class(spam or no spam), The class with the highest posterior probability is the 
+ the outcome of prediction, given a mail with subject line “new professional courses is recommneded for you”
+	4. Step 3 and 4 are solved simultaneously, by computing the posterior probability of each word in the new subject line, and we will be applying Laplace 
+ smoothing to fix the missing words in our datasets. We then add the results of each of these words. The class with the highest posterior probability
+ is the category this new mail belongs to.
+ First, we compute the posterior probability of the class spam given the predictor(word).
+ 	The posterior probability of class ‘spam’ given the predictor(new mail subject line) is found to be 0.8839285714285714(nn). Next, we compute the posterior probability of class ‘non spam’ given the same predictor.
+	The posterior probability hereby is given as 1.4375(mm). Finally since it’s a universal truth that 1.4375 > 0.8839285714285714, the new mail in our inbox with the subject line, “new professional courses recommended for you” has been classified as a “non spam” email by the algorithm. We are safe. :).
+	
