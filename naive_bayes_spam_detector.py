@@ -1,5 +1,7 @@
 '''author: Skywalker(@alojoecee)'''
 
+
+#tokenized data - spam and non-spam mails subject line 
 spamdata = ['save', 'big', 'on', 'all', 'vehicles', 'melt', 'fat', 'away',
            'you', 'were', 'recommended', 'into', 'the', 'global', 'professional',
            'network', 'how', 'to', 'grow', '3+', 'inches', 'taller', 'in', 'just','a',
@@ -8,6 +10,8 @@ nonspamdata = ['thanks', 'for', 'signing', 'up', 'for', 'our', 'newsletter',
               'your', 'profile', 'was', 'recently', 'on', 'changed',
               'confirm', 'you', 'new', 'account', 'recommended', 'courses', 'for', 'you',
               'customer', 'invoice']
+
+#calculate frequency distribution 
 frequency = {}
 counter = 0
 s_counter = 0
@@ -31,6 +35,7 @@ for c in nonspamdata:
                 frequency[c] = [counter, s_counter]
     s_counter = 0
 
+#posterior probability 
 def posterior(prob_of_predictor, prior_probability, prob_of_class):
     try:
         posterior_prob = (prob_of_predictor * prior_probability)/prob_of_class
@@ -38,7 +43,7 @@ def posterior(prob_of_predictor, prior_probability, prob_of_class):
     except ZeroDivisionError:
         return 0
 
-#Total of both classes
+#Total number of frequency distribution for both classes
 spam_all = 0
 for d in frequency:
     spam_all = spam_all + frequency[d][0]
