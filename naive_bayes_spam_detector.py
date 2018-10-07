@@ -1,4 +1,6 @@
-'''author: Skywalker(@alojoecee)'''
+'''
+author: Skywalker(@alojoecee)
+'''
 
 
 #tokenized data - spam and non-spam mails subject line 
