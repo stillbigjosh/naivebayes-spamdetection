@@ -1,5 +1,5 @@
 '''
-author: Skywalker(@alojoecee)
+author: Skywalker
 '''
 
 
