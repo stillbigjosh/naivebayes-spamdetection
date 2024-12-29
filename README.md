@@ -1,7 +1,7 @@
 # NaiveBayesClassifier
 Demonstrating how Naive Bayes solves an age old internet problem - "Spams". To solve this, we will follow 
 a few easy steps. Before you read this, I'm assuming you have a basic understanding of Naive Bayes Classifiers, if 
-you don't - NB Classifiers is a classification algorithm used to certain classification problems. 
+you don't - NB Classifiers is a classification algorithm used to solve a certain classification problem. 
 By 'certain' meaning Naive Bayes is limited in usage, Naive Bayes Classifier would be the wrong algorithm to use 
 in a scenario whereby your dataset points are dependent, NBC makes an assumption about your data, each features would be 
 scaled equally, thus the name.
